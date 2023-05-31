@@ -154,3 +154,25 @@ a:visited {
     position: absolute;
     bottom: 0px;
 }
+
+/* Commitments Section */
+#commitments a {
+    color: black !important;
+    display: block;
+    transition: 0.5s;
+}
+
+#commitments a:hover {
+    cursor: pointer;
+    color: rgb(64, 138, 113) !important;
+    transform: translate(0, -10px);
+}
+
+#commitments img:hover {
+    cursor: pointer;
+    color: rgb(64, 138, 113) !important;
+}
+
+.commitments {
+    font-weight: 700;
+}
