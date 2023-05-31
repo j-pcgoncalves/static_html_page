@@ -121,3 +121,24 @@ a:visited {
 .whats-new {
     text-decoration: underline !important;
 }
+
+/* Experience Section */
+#experience h4 {
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+}
+
+.card img {
+    border-radius: 15px;
+    width: 25rem;
+    margin: 0 auto;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.card img:hover {
+    transform: translate(0, -10px);
+}
