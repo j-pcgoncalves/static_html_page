@@ -200,3 +200,67 @@ footer a i {
 footer a i:hover {
     transform: translate(0, -5px);
 }
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    #library {
+        height: 90vh !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .card img {
+        width: 20rem !important;
+    }
+
+    .tablatures {
+        position: absolute;
+        right: 0px;
+    }
+
+    #library {
+        height: 100vh !important;
+    }
+
+    nav ul li {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    nav ul li:hover {
+        transform: none;
+        border: none !important;
+    }
+
+    nav ul li a:hover {
+        color: burlywood !important;
+    }
+
+    footer {
+        height: 100vh;
+    }
+
+    nav ul li a {
+        color: rgb(255, 255, 255) !important;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 50% !important;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tablatures {
+        position: absolute;
+        bottom: 0px;
+        opacity: 0.6;
+    }
+}
