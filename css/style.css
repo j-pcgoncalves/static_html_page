@@ -176,3 +176,27 @@ a:visited {
 .commitments {
     font-weight: 700;
 }
+
+/* Footer */
+footer {
+    height: 45vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80") no-repeat center center/cover;
+}
+
+footer a {
+    display: block;
+    color: rgb(255, 248, 248) !important;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(187, 161, 161) !important;
+}
+
+footer a i {
+    transition: 0.5s all;
+}
+
+footer a i:hover {
+    transform: translate(0, -5px);
+}
