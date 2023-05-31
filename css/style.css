@@ -47,3 +47,77 @@ body {
     font-size: 3rem;
     font-weight: 700;
 }
+
+.guitar-txt {
+    margin-top: 70px !important;
+}
+
+.btn {
+    margin: 5px 20px;
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+}
+
+nav ul li {
+    padding: 0 10px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+nav ul li a {
+    color: white !important;
+    font-weight: 800;
+}
+
+nav ul li:hover {
+    transform: scale(1.05);
+    border-bottom: 0.5px solid white !important;
+}
+
+.navbar-toggler {
+    width: 60px !important;
+    border: 1px solid #fff !important;
+    box-shadow: none;
+    outline: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.sign {
+    height: 28px;
+    position: fixed;
+    top: 60px;
+    color: white !important;
+    font-weight: 800;
+    z-index: 5555;
+}
+
+.example {
+    border: 20px solid black;
+    border-bottom: none;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.sign:hover {
+    border-bottom: 1px solid white;
+}
+
+.bg-change {
+    color: white;
+}
+
+.bg-change:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.whats-new {
+    text-decoration: underline !important;
+}
